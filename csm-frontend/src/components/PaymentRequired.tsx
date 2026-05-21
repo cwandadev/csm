@@ -42,22 +42,22 @@ const SCHOOL_PLANS: SubscriptionPlan[] = [
     id: 2, name: "basic", display_name: "Basic Plan", description: "For growing schools.",
     price_monthly: 15, price_yearly: 135, max_users: 1000, max_devices: 2, includes_free_device: false,
     features: ["Up to 1,000 users", "2 devices included", "Basic analytics", "Email support", "API access", "Data export", "Custom branding"],
-    stripe_price_id_monthly: 'price_1TUbNbCE2cNbBO2QKA7T1ljO',
-    stripe_price_id_yearly: 'price_1TUbNbCE2cNbBO2Qlo2Gs6J1'
+    stripe_price_id_monthly: 'price_1TVDCKFg0qRyY4I3hLj7igIe',
+    stripe_price_id_yearly: 'price_1TVDCKFg0qRyY4I3XQxTVEAy'
   },
   {
     id: 3, name: "professional", display_name: "Professional", description: "For large schools.",
     price_monthly: 50, price_yearly: 450, max_users: 2000, max_devices: 5, includes_free_device: false,
     features: ["Up to 2,000 users", "5 devices included", "Advanced analytics", "Priority support", "Custom reports", "Custom branding", "API access", "Data export"],
-    stripe_price_id_monthly: 'price_1TUbThCE2cNbBO2QxduoVj09',
-    stripe_price_id_yearly: 'price_1TUbThCE2cNbBO2QpONVX5bY'
+    stripe_price_id_monthly: 'price_1TVDCLFg0qRyY4I3UocudXZj',
+    stripe_price_id_yearly: 'price_1TVDCLFg0qRyY4I3Y2k5FRYo'
   },
   {
     id: 4, name: "enterprise", display_name: "Enterprise", description: "For large institutions.",
     price_monthly: 199, price_yearly: 1791, max_users: null, max_devices: 15, includes_free_device: true,
     features: ["Unlimited users", "15 devices included", "Premium analytics", "24/7 support", "1 free device", "Dedicated account manager", "Custom reports", "API access"],
-    stripe_price_id_monthly: 'price_1TUbcbCE2cNbBO2Q9wSca7hP',
-    stripe_price_id_yearly: 'price_1TUbcbCE2cNbBO2QZGTa3iXy'
+    stripe_price_id_monthly: 'price_1TVDCPFg0qRyY4I3wonmikqO',
+    stripe_price_id_yearly: 'price_1TVDCOFg0qRyY4I38z5LtuMX'
   }
 ];
 
@@ -71,22 +71,22 @@ const COMPANY_PLANS: SubscriptionPlan[] = [
     id: 6, name: "basic", display_name: "Basic Plan", description: "For small businesses.",
     price_monthly: 20, price_yearly: 180, max_users: 100, max_devices: 2, includes_free_device: false,
     features: ["Up to 100 employees", "2 devices included", "Basic analytics", "Email support", "Custom branding"],
-    stripe_price_id_monthly: 'price_1TUbuyCE2cNbBO2Q9PQFjAvb',
-    stripe_price_id_yearly: 'price_1TUbuyCE2cNbBO2Qsbd0FRSu'
+    stripe_price_id_monthly: 'price_1TVDCJFg0qRyY4I3IGo7v3dT',
+    stripe_price_id_yearly: 'price_1TVDCLFg0qRyY4I3nwFD4Vuz'
   },
   {
     id: 7, name: "professional", display_name: "Professional", description: "For growing businesses.",
     price_monthly: 60, price_yearly: 540, max_users: 1000, max_devices: 5, includes_free_device: false,
     features: ["Up to 1,000 employees", "5 devices included", "Advanced analytics", "Priority support", "Custom reports", "Custom branding"],
-    stripe_price_id_monthly: 'price_1TUbyDCE2cNbBO2Qsn12vaYC',
-    stripe_price_id_yearly: 'price_1TUbyDCE2cNbBO2QshtlNsIg'
+    stripe_price_id_monthly: 'price_1TVDCNFg0qRyY4I3z5mVh4j7',
+    stripe_price_id_yearly: 'price_1TVDCMFg0qRyY4I3bhBFvlGX'
   },
   {
     id: 8, name: "enterprise", display_name: "Enterprise", description: "For large enterprises.",
     price_monthly: 160, price_yearly: 1440, max_users: null, max_devices: 10, includes_free_device: true,
     features: ["Unlimited employees", "10 devices included", "Premium analytics", "24/7 support", "1 free device", "Dedicated account manager"],
-    stripe_price_id_monthly: 'price_1TUc34CE2cNbBO2QQAt7rgC5',
-    stripe_price_id_yearly: 'price_1TUc34CE2cNbBO2QdZ0eLPm8'
+    stripe_price_id_monthly: 'price_1TVDCOFg0qRyY4I3O9QDH50Z',
+    stripe_price_id_yearly: 'price_1TVDCNFg0qRyY4I3besBsXOf'
   }
 ];
 

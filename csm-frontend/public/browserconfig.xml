@@ -1,0 +1,8 @@
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square150x150logo src="csm_favicon-192.png"/>
+      <TileColor>#2563eb</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig>

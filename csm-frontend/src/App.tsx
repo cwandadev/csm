@@ -5,7 +5,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { AuthProvider } from "@/contexts/AuthContext";
-import SubscriptionManagement from "./pages/dashboard/SubscriptionManagement";
+// import SubscriptionManagement from "./pages/dashboard/SubscriptionManagement";
 import Index from "./pages/Index";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -67,7 +67,7 @@ const App = () => (
                 <Route path="/dashboard" element={<DashboardLayout />}>
                   <Route index element={<DashboardOverview />} />
                   <Route path="analytics" element={<Analytics />} />
-                  <Route path="subscription" element={<SubscriptionManagement />} />
+                  {/* <Route path="subscription" element={<SubscriptionManagement />} /> */}
                   <Route path="categories" element={<CustomCategories />} />
                   <Route path="attendance" element={<AttendanceManagement />} />
                   <Route path="users" element={<UsersManagement />} />
